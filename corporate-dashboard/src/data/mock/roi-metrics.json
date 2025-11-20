@@ -1,0 +1,89 @@
+{
+  "investment": {
+    "totalInvestment": 12500,
+    "platformCost": 8000,
+    "rewardsCost": 3500,
+    "administrationCost": 1000,
+    "perEmployeeCost": 250
+  },
+  "projectedSavings": {
+    "annual": 28600,
+    "monthly": 2383,
+    "perEmployee": 572,
+    "breakdown": {
+      "reducedAbsenteeism": 12400,
+      "healthInsurance": 9800,
+      "productivityGains": 6400
+    }
+  },
+  "roi": {
+    "percentage": 229,
+    "breakEvenMonths": 5.2,
+    "netValue": 16100
+  },
+  "healthImpact": {
+    "employeesImproved": 38,
+    "employeesTotal": 42,
+    "improvementRate": 90,
+    "avgWeightLoss": 3.2,
+    "avgWeightLossPerEmployee": 2.1,
+    "sleepIncrease": 0.6,
+    "sleepBefore": 7.9,
+    "sleepAfter": 8.5
+  },
+  "beforeAfter": {
+    "before": {
+      "avgSickDaysPerYear": 8.2,
+      "absenteeismRate": 3.2,
+      "dailySteps": 6200,
+      "healthScore": 68,
+      "highStressEmployees": 18
+    },
+    "after": {
+      "avgSickDaysPerYear": 6.4,
+      "absenteeismRate": 2.5,
+      "dailySteps": 8547,
+      "healthScore": 78,
+      "highStressEmployees": 8
+    },
+    "improvement": {
+      "sickDays": -22,
+      "absenteeism": -22,
+      "steps": 38,
+      "healthScore": 15,
+      "stress": -56
+    }
+  },
+  "productivityImpact": {
+    "engagementIncrease": 28,
+    "energyLevelsIncrease": 35,
+    "focusIncrease": 22,
+    "estimatedAnnualValue": 78400
+  },
+  "keyInsights": [
+    {
+      "title": "90% Improvement Rate",
+      "description": "38 out of 42 active employees showing measurable health improvements",
+      "icon": "users",
+      "color": "green"
+    },
+    {
+      "title": "Quick ROI Timeline",
+      "description": "Investment recouped in 5.2 months based on current trends",
+      "icon": "dollar",
+      "color": "cobalt"
+    },
+    {
+      "title": "Culture Shift",
+      "description": "84% of employees report improved work-life balance",
+      "icon": "activity",
+      "color": "orange"
+    },
+    {
+      "title": "Sustained Growth",
+      "description": "Engagement increasing month-over-month with no plateau",
+      "icon": "trending",
+      "color": "purple"
+    }
+  ]
+}

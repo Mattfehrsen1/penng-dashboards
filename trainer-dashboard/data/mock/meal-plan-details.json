@@ -1,0 +1,315 @@
+{
+  "mealPlans": [
+    {
+      "id": "meal-001",
+      "name": "Weight Loss - 1500 Cal",
+      "goal": "weight-loss",
+      "caloriesPerDay": 1500,
+      "macros": {
+        "protein": 120,
+        "carbs": 150,
+        "fats": 50
+      },
+      "description": "A balanced meal plan designed for healthy weight loss while maintaining muscle mass",
+      "weeks": [
+        {
+          "weekNumber": 1,
+          "days": [
+            {
+              "day": "Monday",
+              "meals": [
+                {
+                  "name": "Greek Yogurt Parfait",
+                  "type": "breakfast",
+                  "calories": 320,
+                  "protein": 25,
+                  "carbs": 42,
+                  "fats": 6,
+                  "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Grilled Chicken Salad",
+                  "type": "lunch",
+                  "calories": 450,
+                  "protein": 38,
+                  "carbs": 35,
+                  "fats": 18,
+                  "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Apple with Almond Butter",
+                  "type": "snack",
+                  "calories": 180,
+                  "protein": 4,
+                  "carbs": 22,
+                  "fats": 9,
+                  "image": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Baked Salmon with Vegetables",
+                  "type": "dinner",
+                  "calories": 520,
+                  "protein": 42,
+                  "carbs": 38,
+                  "fats": 18,
+                  "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&h=300&fit=crop"
+                }
+              ],
+              "totalCalories": 1470,
+              "totalMacros": {
+                "protein": 109,
+                "carbs": 137,
+                "fats": 51
+              }
+            },
+            {
+              "day": "Tuesday",
+              "meals": [
+                {
+                  "name": "Oatmeal with Berries",
+                  "type": "breakfast",
+                  "calories": 310,
+                  "protein": 12,
+                  "carbs": 52,
+                  "fats": 8,
+                  "image": "https://images.unsplash.com/photo-1517673132405-a56a62b18caf?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Turkey Wrap",
+                  "type": "lunch",
+                  "calories": 420,
+                  "protein": 32,
+                  "carbs": 45,
+                  "fats": 12,
+                  "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Protein Smoothie",
+                  "type": "snack",
+                  "calories": 200,
+                  "protein": 25,
+                  "carbs": 18,
+                  "fats": 5,
+                  "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Lean Beef Stir-Fry",
+                  "type": "dinner",
+                  "calories": 540,
+                  "protein": 45,
+                  "carbs": 42,
+                  "fats": 19,
+                  "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop"
+                }
+              ],
+              "totalCalories": 1470,
+              "totalMacros": {
+                "protein": 114,
+                "carbs": 157,
+                "fats": 44
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meal-002",
+      "name": "Muscle Gain - 2500 Cal",
+      "goal": "muscle-gain",
+      "caloriesPerDay": 2500,
+      "macros": {
+        "protein": 200,
+        "carbs": 280,
+        "fats": 70
+      },
+      "description": "High-protein meal plan optimized for muscle growth and recovery",
+      "weeks": [
+        {
+          "weekNumber": 1,
+          "days": [
+            {
+              "day": "Monday",
+              "meals": [
+                {
+                  "name": "Protein Pancakes",
+                  "type": "breakfast",
+                  "calories": 520,
+                  "protein": 42,
+                  "carbs": 58,
+                  "fats": 14,
+                  "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Chicken Rice Bowl",
+                  "type": "lunch",
+                  "calories": 720,
+                  "protein": 55,
+                  "carbs": 85,
+                  "fats": 18,
+                  "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Peanut Butter Sandwich",
+                  "type": "snack",
+                  "calories": 380,
+                  "protein": 18,
+                  "carbs": 42,
+                  "fats": 16,
+                  "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Steak with Sweet Potato",
+                  "type": "dinner",
+                  "calories": 820,
+                  "protein": 68,
+                  "carbs": 78,
+                  "fats": 24,
+                  "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?w=400&h=300&fit=crop"
+                }
+              ],
+              "totalCalories": 2440,
+              "totalMacros": {
+                "protein": 183,
+                "carbs": 263,
+                "fats": 72
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meal-003",
+      "name": "Maintenance - 2000 Cal",
+      "goal": "maintenance",
+      "caloriesPerDay": 2000,
+      "macros": {
+        "protein": 150,
+        "carbs": 220,
+        "fats": 60
+      },
+      "description": "Balanced meal plan for maintaining current weight and overall health",
+      "weeks": [
+        {
+          "weekNumber": 1,
+          "days": [
+            {
+              "day": "Monday",
+              "meals": [
+                {
+                  "name": "Avocado Toast with Eggs",
+                  "type": "breakfast",
+                  "calories": 420,
+                  "protein": 22,
+                  "carbs": 38,
+                  "fats": 20,
+                  "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Mediterranean Quinoa Bowl",
+                  "type": "lunch",
+                  "calories": 580,
+                  "protein": 28,
+                  "carbs": 72,
+                  "fats": 18,
+                  "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Trail Mix",
+                  "type": "snack",
+                  "calories": 220,
+                  "protein": 8,
+                  "carbs": 28,
+                  "fats": 10,
+                  "image": "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Grilled Fish Tacos",
+                  "type": "dinner",
+                  "calories": 740,
+                  "protein": 52,
+                  "carbs": 78,
+                  "fats": 22,
+                  "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&h=300&fit=crop"
+                }
+              ],
+              "totalCalories": 1960,
+              "totalMacros": {
+                "protein": 110,
+                "carbs": 216,
+                "fats": 70
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meal-004",
+      "name": "Performance - 2800 Cal",
+      "goal": "performance",
+      "caloriesPerDay": 2800,
+      "macros": {
+        "protein": 180,
+        "carbs": 350,
+        "fats": 75
+      },
+      "description": "High-energy meal plan for athletes and high-performance training",
+      "weeks": [
+        {
+          "weekNumber": 1,
+          "days": [
+            {
+              "day": "Monday",
+              "meals": [
+                {
+                  "name": "Power Breakfast Bowl",
+                  "type": "breakfast",
+                  "calories": 620,
+                  "protein": 38,
+                  "carbs": 82,
+                  "fats": 18,
+                  "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Double Protein Sandwich",
+                  "type": "lunch",
+                  "calories": 820,
+                  "protein": 58,
+                  "carbs": 95,
+                  "fats": 22,
+                  "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Energy Bar & Banana",
+                  "type": "snack",
+                  "calories": 340,
+                  "protein": 15,
+                  "carbs": 52,
+                  "fats": 10,
+                  "image": "https://images.unsplash.com/photo-1604881991720-f91add269bed?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Pasta with Chicken",
+                  "type": "dinner",
+                  "calories": 980,
+                  "protein": 72,
+                  "carbs": 128,
+                  "fats": 22,
+                  "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&h=300&fit=crop"
+                }
+              ],
+              "totalCalories": 2760,
+              "totalMacros": {
+                "protein": 183,
+                "carbs": 357,
+                "fats": 72
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "progressSummary": {
+    "totalClientsWithProgress": 28,
+    "avgWeightChange": -3.5,
+    "avgHealthScoreIncrease": 12,
+    "clientsReachedGoals": 8,
+    "clientsOnTrack": 18,
+    "clientsNeedingAttention": 4
+  },
+  "topPerformers": [
+    {
+      "clientId": "client-030",
+      "name": "Brandon Campbell",
+      "progressScore": 95,
+      "weightChange": -2,
+      "healthScoreIncrease": 15,
+      "streakDays": 52
+    },
+    {
+      "clientId": "client-010",
+      "name": "Robert Taylor",
+      "progressScore": 94,
+      "weightChange": -2,
+      "healthScoreIncrease": 14,
+      "streakDays": 48
+    },
+    {
+      "clientId": "client-002",
+      "name": "Michael Chen",
+      "progressScore": 92,
+      "weightChange": -5,
+      "healthScoreIncrease": 12,
+      "streakDays": 42
+    },
+    {
+      "clientId": "client-020",
+      "name": "Andrew Hall",
+      "progressScore": 93,
+      "weightChange": 8,
+      "healthScoreIncrease": 13,
+      "streakDays": 44
+    },
+    {
+      "clientId": "client-017",
+      "name": "Stephanie Clark",
+      "progressScore": 91,
+      "weightChange": 2,
+      "healthScoreIncrease": 11,
+      "streakDays": 37
+    }
+  ],
+  "needingAttention": [
+    {
+      "clientId": "client-005",
+      "name": "Lisa Anderson",
+      "reason": "Inactive for 30+ days",
+      "lastActivity": "2024-10-20",
+      "complianceScore": 44,
+      "recommendedAction": "Schedule check-in call"
+    },
+    {
+      "clientId": "client-013",
+      "name": "Jessica Brown",
+      "reason": "Inactive for 60+ days",
+      "lastActivity": "2024-09-15",
+      "complianceScore": 44,
+      "recommendedAction": "Urgent outreach needed"
+    },
+    {
+      "clientId": "client-004",
+      "name": "James Rodriguez",
+      "reason": "Low meal plan adherence (68%)",
+      "lastActivity": "2024-11-15",
+      "complianceScore": 78,
+      "recommendedAction": "Nutrition counseling"
+    },
+    {
+      "clientId": "client-019",
+      "name": "Nicole Walker",
+      "reason": "Low workout completion (62%)",
+      "lastActivity": "2024-11-14",
+      "complianceScore": 68,
+      "recommendedAction": "Review workout difficulty"
+    }
+  ],
+  "weeklyProgressData": [
+    {"week": "Week 1", "avgWeightChange": -0.5, "avgCompliance": 75},
+    {"week": "Week 2", "avgWeightChange": -0.8, "avgCompliance": 78},
+    {"week": "Week 3", "avgWeightChange": -0.7, "avgCompliance": 82},
+    {"week": "Week 4", "avgWeightChange": -0.9, "avgCompliance": 85},
+    {"week": "Week 5", "avgWeightChange": -0.6, "avgCompliance": 83},
+    {"week": "Week 6", "avgWeightChange": -0.5, "avgCompliance": 86}
+  ],
+  "clientProgressDetails": {
+    "client-001": {
+      "weightHistory": [
+        {"date": "2024-01-15", "weight": 155, "bodyFat": 28},
+        {"date": "2024-02-15", "weight": 152, "bodyFat": 26.5},
+        {"date": "2024-03-15", "weight": 149, "bodyFat": 25},
+        {"date": "2024-04-15", "weight": 147, "bodyFat": 24},
+        {"date": "2024-05-15", "weight": 145, "bodyFat": 23.2}
+      ],
+      "performanceMetrics": {
+        "strengthIncrease": 25,
+        "enduranceIncrease": 30,
+        "flexibilityIncrease": 15
+      }
+    },
+    "client-002": {
+      "weightHistory": [
+        {"date": "2024-02-01", "weight": 185, "bodyFat": 22},
+        {"date": "2024-03-01", "weight": 183, "bodyFat": 21},
+        {"date": "2024-04-01", "weight": 182, "bodyFat": 20.5},
+        {"date": "2024-05-01", "weight": 180, "bodyFat": 19.8}
+      ],
+      "performanceMetrics": {
+        "strengthIncrease": 18,
+        "enduranceIncrease": 45,
+        "flexibilityIncrease": 20
+      }
+    }
+  }
+}

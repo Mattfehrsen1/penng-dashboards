@@ -1,0 +1,50 @@
+{
+  "overview": {
+    "avgDailyActiveClients": 25,
+    "peakDailyActiveClients": 28,
+    "totalClients": 30,
+    "dateRange": {
+      "start": "2024-10-20",
+      "end": "2024-11-19"
+    }
+  },
+  "dailyStats": [
+    {"date": "2024-10-20", "activeClients": 22, "workoutsLogged": 18, "mealsTracked": 85, "avgCompliance": 73},
+    {"date": "2024-10-21", "activeClients": 24, "workoutsLogged": 20, "mealsTracked": 92, "avgCompliance": 78},
+    {"date": "2024-10-22", "activeClients": 25, "workoutsLogged": 22, "mealsTracked": 96, "avgCompliance": 81},
+    {"date": "2024-10-23", "activeClients": 23, "workoutsLogged": 19, "mealsTracked": 88, "avgCompliance": 76},
+    {"date": "2024-10-24", "activeClients": 26, "workoutsLogged": 23, "mealsTracked": 102, "avgCompliance": 83},
+    {"date": "2024-10-25", "activeClients": 27, "workoutsLogged": 24, "mealsTracked": 108, "avgCompliance": 86},
+    {"date": "2024-10-26", "activeClients": 28, "workoutsLogged": 25, "mealsTracked": 112, "avgCompliance": 88},
+    {"date": "2024-10-27", "activeClients": 26, "workoutsLogged": 22, "mealsTracked": 98, "avgCompliance": 82},
+    {"date": "2024-10-28", "activeClients": 25, "workoutsLogged": 21, "mealsTracked": 94, "avgCompliance": 80},
+    {"date": "2024-10-29", "activeClients": 24, "workoutsLogged": 20, "mealsTracked": 90, "avgCompliance": 77},
+    {"date": "2024-10-30", "activeClients": 26, "workoutsLogged": 23, "mealsTracked": 100, "avgCompliance": 84},
+    {"date": "2024-10-31", "activeClients": 27, "workoutsLogged": 24, "mealsTracked": 105, "avgCompliance": 85},
+    {"date": "2024-11-01", "activeClients": 25, "workoutsLogged": 22, "mealsTracked": 95, "avgCompliance": 81},
+    {"date": "2024-11-02", "activeClients": 26, "workoutsLogged": 23, "mealsTracked": 99, "avgCompliance": 83},
+    {"date": "2024-11-03", "activeClients": 27, "workoutsLogged": 25, "mealsTracked": 107, "avgCompliance": 87},
+    {"date": "2024-11-04", "activeClients": 24, "workoutsLogged": 21, "mealsTracked": 92, "avgCompliance": 79},
+    {"date": "2024-11-05", "activeClients": 25, "workoutsLogged": 22, "mealsTracked": 96, "avgCompliance": 82},
+    {"date": "2024-11-06", "activeClients": 26, "workoutsLogged": 24, "mealsTracked": 102, "avgCompliance": 85},
+    {"date": "2024-11-07", "activeClients": 27, "workoutsLogged": 25, "mealsTracked": 110, "avgCompliance": 88},
+    {"date": "2024-11-08", "activeClients": 28, "workoutsLogged": 26, "mealsTracked": 115, "avgCompliance": 90},
+    {"date": "2024-11-09", "activeClients": 27, "workoutsLogged": 24, "mealsTracked": 108, "avgCompliance": 86},
+    {"date": "2024-11-10", "activeClients": 25, "workoutsLogged": 22, "mealsTracked": 98, "avgCompliance": 82},
+    {"date": "2024-11-11", "activeClients": 24, "workoutsLogged": 20, "mealsTracked": 90, "avgCompliance": 78},
+    {"date": "2024-11-12", "activeClients": 26, "workoutsLogged": 23, "mealsTracked": 101, "avgCompliance": 84},
+    {"date": "2024-11-13", "activeClients": 27, "workoutsLogged": 25, "mealsTracked": 109, "avgCompliance": 87},
+    {"date": "2024-11-14", "activeClients": 26, "workoutsLogged": 23, "mealsTracked": 103, "avgCompliance": 85},
+    {"date": "2024-11-15", "activeClients": 25, "workoutsLogged": 22, "mealsTracked": 97, "avgCompliance": 83},
+    {"date": "2024-11-16", "activeClients": 27, "workoutsLogged": 25, "mealsTracked": 111, "avgCompliance": 88},
+    {"date": "2024-11-17", "activeClients": 28, "workoutsLogged": 26, "mealsTracked": 116, "avgCompliance": 91},
+    {"date": "2024-11-18", "activeClients": 27, "workoutsLogged": 25, "mealsTracked": 113, "avgCompliance": 89},
+    {"date": "2024-11-19", "activeClients": 28, "workoutsLogged": 27, "mealsTracked": 118, "avgCompliance": 92}
+  ],
+  "featureUsage": {
+    "workoutsLogged": {"count": 723, "percentage": 35},
+    "nutritionTracking": {"count": 945, "percentage": 45},
+    "sleepLogging": {"count": 312, "percentage": 15},
+    "challenges": {"count": 105, "percentage": 5}
+  }
+}

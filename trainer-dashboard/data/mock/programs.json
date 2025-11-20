@@ -1,0 +1,109 @@
+{
+  "workoutPrograms": [
+    {
+      "id": "strength-001",
+      "name": "Beginner Strength Training",
+      "type": "strength",
+      "duration": "8 weeks",
+      "difficulty": "beginner",
+      "assignedClients": 5,
+      "avgCompletionRate": 88,
+      "description": "A foundational strength training program for beginners"
+    },
+    {
+      "id": "cardio-001",
+      "name": "Endurance Builder",
+      "type": "cardio",
+      "duration": "6 weeks",
+      "difficulty": "intermediate",
+      "assignedClients": 6,
+      "avgCompletionRate": 91,
+      "description": "Build cardiovascular endurance and stamina"
+    },
+    {
+      "id": "hiit-001",
+      "name": "HIIT Fat Burner",
+      "type": "hiit",
+      "duration": "4 weeks",
+      "difficulty": "intermediate",
+      "assignedClients": 4,
+      "avgCompletionRate": 85,
+      "description": "High-intensity interval training for fat loss"
+    },
+    {
+      "id": "yoga-001",
+      "name": "Flexibility & Balance",
+      "type": "yoga",
+      "duration": "12 weeks",
+      "difficulty": "beginner",
+      "assignedClients": 3,
+      "avgCompletionRate": 82,
+      "description": "Improve flexibility, balance, and mindfulness"
+    }
+  ],
+  "mealPlans": [
+    {
+      "id": "meal-001",
+      "name": "Weight Loss - 1500 Cal",
+      "type": "weight-loss",
+      "dailyCalories": 1500,
+      "macros": {
+        "protein": 35,
+        "carbs": 40,
+        "fats": 25
+      },
+      "assignedClients": 8,
+      "avgAdherence": 87,
+      "description": "Balanced meal plan for sustainable weight loss"
+    },
+    {
+      "id": "meal-002",
+      "name": "Muscle Gain - 2500 Cal",
+      "type": "muscle-gain",
+      "dailyCalories": 2500,
+      "macros": {
+        "protein": 40,
+        "carbs": 40,
+        "fats": 20
+      },
+      "assignedClients": 6,
+      "avgAdherence": 89,
+      "description": "High-protein plan for muscle building"
+    },
+    {
+      "id": "meal-003",
+      "name": "Maintenance - 2000 Cal",
+      "type": "maintenance",
+      "dailyCalories": 2000,
+      "macros": {
+        "protein": 30,
+        "carbs": 45,
+        "fats": 25
+      },
+      "assignedClients": 10,
+      "avgAdherence": 91,
+      "description": "Balanced nutrition for health maintenance"
+    },
+    {
+      "id": "meal-004",
+      "name": "Athletic Performance - 2800 Cal",
+      "type": "performance",
+      "dailyCalories": 2800,
+      "macros": {
+        "protein": 35,
+        "carbs": 45,
+        "fats": 20
+      },
+      "assignedClients": 4,
+      "avgAdherence": 85,
+      "description": "Optimized for athletic performance and recovery"
+    }
+  ],
+  "programStats": {
+    "totalWorkoutPrograms": 20,
+    "totalMealPlans": 18,
+    "avgProgramCompletion": 87,
+    "mostPopularWorkout": "cardio-001",
+    "mostPopularMeal": "meal-003"
+  }
+}

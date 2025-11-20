@@ -1,0 +1,484 @@
+{
+  "workoutPrograms": [
+    {
+      "id": "strength-001",
+      "name": "Beginner Strength Training",
+      "type": "strength",
+      "duration": "8 weeks",
+      "difficulty": "beginner",
+      "description": "A foundational strength training program for beginners focusing on compound movements and proper form",
+      "weeks": [
+        {
+          "weekNumber": 1,
+          "focus": "Foundation & Form",
+          "days": [
+            {
+              "day": "Monday",
+              "muscleGroup": "Full Body",
+              "duration": 45,
+              "exercises": [
+                {
+                  "name": "Barbell Squat",
+                  "sets": 3,
+                  "reps": "8-10",
+                  "rest": "90 sec",
+                  "notes": "Focus on depth and form",
+                  "image": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Bench Press",
+                  "sets": 3,
+                  "reps": "8-10",
+                  "rest": "90 sec",
+                  "notes": "Control the descent",
+                  "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Bent-Over Row",
+                  "sets": 3,
+                  "reps": "10-12",
+                  "rest": "60 sec",
+                  "notes": "Keep back straight",
+                  "image": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Dumbbell Shoulder Press",
+                  "sets": 3,
+                  "reps": "10-12",
+                  "rest": "60 sec",
+                  "notes": "Full range of motion",
+                  "image": "https://images.unsplash.com/photo-1526401281827-6b20e2b44f2f?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Plank",
+                  "sets": 3,
+                  "reps": "30-45 sec",
+                  "rest": "30 sec",
+                  "notes": "Maintain neutral spine",
+                  "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop"
+                }
+              ]
+            },
+            {
+              "day": "Wednesday",
+              "muscleGroup": "Lower Body",
+              "duration": 50,
+              "exercises": [
+                {
+                  "name": "Leg Press",
+                  "sets": 4,
+                  "reps": "10-12",
+                  "rest": "90 sec",
+                  "notes": "Full range of motion",
+                  "image": "https://images.unsplash.com/photo-1434682881908-b43d0467b798?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Romanian Deadlift",
+                  "sets": 3,
+                  "reps": "10-12",
+                  "rest": "90 sec",
+                  "notes": "Feel the hamstring stretch",
+                  "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Leg Curl",
+                  "sets": 3,
+                  "reps": "12-15",
+                  "rest": "60 sec",
+                  "notes": "Slow and controlled",
+                  "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Calf Raise",
+                  "sets": 4,
+                  "reps": "15-20",
+                  "rest": "45 sec",
+                  "notes": "Full stretch and contraction",
+                  "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=300&fit=crop"
+                }
+              ]
+            },
+            {
+              "day": "Friday",
+              "muscleGroup": "Upper Body",
+              "duration": 45,
+              "exercises": [
+                {
+                  "name": "Incline Dumbbell Press",
+                  "sets": 3,
+                  "reps": "10-12",
+                  "rest": "90 sec",
+                  "notes": "Upper chest focus",
+                  "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Pull-ups (Assisted if needed)",
+                  "sets": 3,
+                  "reps": "6-8",
+                  "rest": "90 sec",
+                  "notes": "Full range of motion",
+                  "image": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Dumbbell Lateral Raise",
+                  "sets": 3,
+                  "reps": "12-15",
+                  "rest": "60 sec",
+                  "notes": "Control the weight",
+                  "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Bicep Curl",
+                  "sets": 3,
+                  "reps": "10-12",
+                  "rest": "60 sec",
+                  "notes": "No swinging",
+                  "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Tricep Dips",
+                  "sets": 3,
+                  "reps": "8-10",
+                  "rest": "60 sec",
+                  "notes": "Chest up, elbows back",
+                  "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "weekNumber": 2,
+          "focus": "Volume Increase",
+          "days": [
+            {
+              "day": "Monday",
+              "muscleGroup": "Full Body",
+              "duration": 50,
+              "exercises": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cardio-001",
+      "name": "Endurance Builder",
+      "type": "cardio",
+      "duration": "6 weeks",
+      "difficulty": "intermediate",
+      "description": "Build cardiovascular endurance and stamina through progressive running and interval training",
+      "weeks": [
+        {
+          "weekNumber": 1,
+          "focus": "Base Building",
+          "days": [
+            {
+              "day": "Monday",
+              "muscleGroup": "Steady State",
+              "duration": 30,
+              "exercises": [
+                {
+                  "name": "Easy Run",
+                  "sets": 1,
+                  "reps": "30 min",
+                  "rest": "N/A",
+                  "notes": "Maintain conversational pace",
+                  "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Dynamic Stretching",
+                  "sets": 1,
+                  "reps": "10 min",
+                  "rest": "N/A",
+                  "notes": "Focus on legs and hips",
+                  "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop"
+                }
+              ]
+            },
+            {
+              "day": "Wednesday",
+              "muscleGroup": "Intervals",
+              "duration": 40,
+              "exercises": [
+                {
+                  "name": "5 min Warm-up",
+                  "sets": 1,
+                  "reps": "5 min",
+                  "rest": "N/A",
+                  "notes": "Easy pace",
+                  "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Interval Training",
+                  "sets": 6,
+                  "reps": "2 min hard / 2 min easy",
+                  "rest": "N/A",
+                  "notes": "80-85% max effort on hard intervals",
+                  "image": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Cool Down",
+                  "sets": 1,
+                  "reps": "10 min",
+                  "rest": "N/A",
+                  "notes": "Easy pace with stretching",
+                  "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop"
+                }
+              ]
+            },
+            {
+              "day": "Friday",
+              "muscleGroup": "Tempo Run",
+              "duration": 35,
+              "exercises": [
+                {
+                  "name": "Warm-up Jog",
+                  "sets": 1,
+                  "reps": "10 min",
+                  "rest": "N/A",
+                  "notes": "Gradually increase pace",
+                  "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Tempo Run",
+                  "sets": 1,
+                  "reps": "20 min",
+                  "rest": "N/A",
+                  "notes": "Comfortably hard pace",
+                  "image": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Cool Down",
+                  "sets": 1,
+                  "reps": "5 min",
+                  "rest": "N/A",
+                  "notes": "Easy jog and walk",
+                  "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop"
+                }
+              ]
+            },
+            {
+              "day": "Sunday",
+              "muscleGroup": "Long Run",
+              "duration": 45,
+              "exercises": [
+                {
+                  "name": "Long Steady Run",
+                  "sets": 1,
+                  "reps": "45 min",
+                  "rest": "N/A",
+                  "notes": "Maintain easy conversational pace throughout",
+                  "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=400&h=300&fit=crop"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hiit-001",
+      "name": "HIIT Fat Burner",
+      "type": "hiit",
+      "duration": "4 weeks",
+      "difficulty": "intermediate",
+      "description": "High-intensity interval training for maximum fat loss and metabolic conditioning",
+      "weeks": [
+        {
+          "weekNumber": 1,
+          "focus": "Introduction to HIIT",
+          "days": [
+            {
+              "day": "Monday",
+              "muscleGroup": "Full Body HIIT",
+              "duration": 25,
+              "exercises": [
+                {
+                  "name": "Burpees",
+                  "sets": 4,
+                  "reps": "30 sec work / 30 sec rest",
+                  "rest": "30 sec",
+                  "notes": "Maximum effort during work periods",
+                  "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Mountain Climbers",
+                  "sets": 4,
+                  "reps": "30 sec work / 30 sec rest",
+                  "rest": "30 sec",
+                  "notes": "Quick tempo",
+                  "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Jump Squats",
+                  "sets": 4,
+                  "reps": "30 sec work / 30 sec rest",
+                  "rest": "30 sec",
+                  "notes": "Explosive movement",
+                  "image": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "High Knees",
+                  "sets": 4,
+                  "reps": "30 sec work / 30 sec rest",
+                  "rest": "30 sec",
+                  "notes": "Drive knees up high",
+                  "image": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=400&h=300&fit=crop"
+                }
+              ]
+            },
+            {
+              "day": "Wednesday",
+              "muscleGroup": "Cardio HIIT",
+              "duration": 20,
+              "exercises": [
+                {
+                  "name": "Sprint Intervals",
+                  "sets": 8,
+                  "reps": "20 sec sprint / 40 sec walk",
+                  "rest": "40 sec",
+                  "notes": "90-95% max effort",
+                  "image": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=400&h=300&fit=crop"
+                }
+              ]
+            },
+            {
+              "day": "Friday",
+              "muscleGroup": "Strength HIIT",
+              "duration": 30,
+              "exercises": [
+                {
+                  "name": "Kettlebell Swings",
+                  "sets": 4,
+                  "reps": "40 sec work / 20 sec rest",
+                  "rest": "20 sec",
+                  "notes": "Hip hinge power",
+                  "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Push-up to T",
+                  "sets": 4,
+                  "reps": "40 sec work / 20 sec rest",
+                  "rest": "20 sec",
+                  "notes": "Rotate fully",
+                  "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Jumping Lunges",
+                  "sets": 4,
+                  "reps": "40 sec work / 20 sec rest",
+                  "rest": "20 sec",
+                  "notes": "Explosive switch",
+                  "image": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Plank Jacks",
+                  "sets": 4,
+                  "reps": "40 sec work / 20 sec rest",
+                  "rest": "20 sec",
+                  "notes": "Keep core tight",
+                  "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yoga-001",
+      "name": "Flexibility & Balance",
+      "type": "yoga",
+      "duration": "12 weeks",
+      "difficulty": "beginner",
+      "description": "Improve flexibility, balance, and mindfulness through progressive yoga practice",
+      "weeks": [
+        {
+          "weekNumber": 1,
+          "focus": "Foundational Poses",
+          "days": [
+            {
+              "day": "Monday",
+              "muscleGroup": "Flow Basics",
+              "duration": 30,
+              "exercises": [
+                {
+                  "name": "Sun Salutation A",
+                  "sets": 5,
+                  "reps": "1 flow",
+                  "rest": "30 sec",
+                  "notes": "Focus on breath synchronization",
+                  "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Warrior I",
+                  "sets": 2,
+                  "reps": "30 sec hold each side",
+                  "rest": "15 sec",
+                  "notes": "Square hips forward",
+                  "image": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Triangle Pose",
+                  "sets": 2,
+                  "reps": "30 sec hold each side",
+                  "rest": "15 sec",
+                  "notes": "Reach and extend",
+                  "image": "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Child's Pose",
+                  "sets": 1,
+                  "reps": "2 min",
+                  "rest": "N/A",
+                  "notes": "Relax and breathe",
+                  "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=300&fit=crop"
+                }
+              ]
+            },
+            {
+              "day": "Thursday",
+              "muscleGroup": "Balance & Core",
+              "duration": 30,
+              "exercises": [
+                {
+                  "name": "Tree Pose",
+                  "sets": 2,
+                  "reps": "45 sec each side",
+                  "rest": "15 sec",
+                  "notes": "Find your focal point",
+                  "image": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Boat Pose",
+                  "sets": 3,
+                  "reps": "30 sec",
+                  "rest": "30 sec",
+                  "notes": "Engage core fully",
+                  "image": "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Downward Dog",
+                  "sets": 3,
+                  "reps": "1 min",
+                  "rest": "30 sec",
+                  "notes": "Press heels down",
+                  "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop"
+                },
+                {
+                  "name": "Savasana",
+                  "sets": 1,
+                  "reps": "5 min",
+                  "rest": "N/A",
+                  "notes": "Complete relaxation",
+                  "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=300&fit=crop"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

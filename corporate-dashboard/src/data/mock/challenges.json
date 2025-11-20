@@ -1,0 +1,109 @@
+[
+  {
+    "id": "challenge-001",
+    "name": "November Step Challenge",
+    "type": "steps",
+    "icon": "👟",
+    "description": "Walk 10,000 steps every day throughout November",
+    "goal": "10,000 steps daily",
+    "goalValue": 10000,
+    "startDate": "2024-11-01",
+    "endDate": "2024-11-30",
+    "participants": 42,
+    "progress": 68,
+    "daysLeft": 13,
+    "status": "active",
+    "rewards": {
+      "first": "$100 Gift Card",
+      "second": "$75 Gift Card",
+      "third": "$50 Gift Card",
+      "finisher": "November Step Champion Badge"
+    },
+    "leaderboard": [
+      { "employeeId": "emp-001", "rank": 1, "score": 52300, "name": "Sarah Johnson", "dept": "Sales", "avatar": "👩" },
+      { "employeeId": "emp-002", "rank": 2, "score": 49800, "name": "Marcus Chen", "dept": "Creative", "avatar": "👨" },
+      { "employeeId": "emp-003", "rank": 3, "score": 48700, "name": "Emily Rodriguez", "dept": "Production", "avatar": "👩" },
+      { "employeeId": "emp-004", "rank": 4, "score": 46200, "name": "David Park", "dept": "Sales", "avatar": "👨" },
+      { "employeeId": "emp-005", "rank": 5, "score": 45100, "name": "Lisa Anderson", "dept": "Creative", "avatar": "👩" },
+      { "employeeId": "emp-006", "rank": 6, "score": 43800, "name": "James Wilson", "dept": "Production", "avatar": "👨" },
+      { "employeeId": "emp-007", "rank": 7, "score": 42500, "name": "Anna Martinez", "dept": "Admin", "avatar": "👩" },
+      { "employeeId": "emp-008", "rank": 8, "score": 41200, "name": "Tom Brown", "dept": "Creative", "avatar": "👨" },
+      { "employeeId": "emp-009", "rank": 9, "score": 40800, "name": "Rachel Kim", "dept": "Sales", "avatar": "👩" },
+      { "employeeId": "emp-010", "rank": 10, "score": 39600, "name": "Michael Torres", "dept": "Creative", "avatar": "👨" }
+    ],
+    "stats": {
+      "avgDailySteps": 11234,
+      "goalAchievers": 29,
+      "daysActive": 17,
+      "totalDays": 30
+    }
+  },
+  {
+    "id": "challenge-002",
+    "name": "Sleep Champion",
+    "type": "sleep",
+    "icon": "😴",
+    "description": "Get 7+ hours of sleep for 5 nights per week",
+    "goal": "7+ hrs for 5 nights",
+    "goalValue": 7,
+    "startDate": "2024-11-13",
+    "endDate": "2024-11-20",
+    "participants": 28,
+    "progress": 45,
+    "daysLeft": 3,
+    "status": "active",
+    "rewards": {
+      "first": "$75 Gift Card",
+      "second": "$50 Gift Card",
+      "third": "$25 Gift Card",
+      "finisher": "Sleep Master Badge"
+    },
+    "leaderboard": [
+      { "employeeId": "emp-009", "rank": 1, "score": 7, "name": "Rachel Kim", "dept": "Sales", "avatar": "👩" },
+      { "employeeId": "emp-001", "rank": 2, "score": 7, "name": "Sarah Johnson", "dept": "Sales", "avatar": "👩" },
+      { "employeeId": "emp-004", "rank": 3, "score": 7, "name": "David Park", "dept": "Sales", "avatar": "👨" },
+      { "employeeId": "emp-002", "rank": 4, "score": 6, "name": "Marcus Chen", "dept": "Creative", "avatar": "👨" },
+      { "employeeId": "emp-013", "rank": 5, "score": 6, "name": "Amanda White", "dept": "Creative", "avatar": "👩" }
+    ],
+    "stats": {
+      "avgSleepHours": 7.1,
+      "goalAchievers": 18,
+      "daysActive": 5,
+      "totalDays": 7
+    }
+  },
+  {
+    "id": "challenge-003",
+    "name": "Workout Warriors",
+    "type": "workouts",
+    "icon": "💪",
+    "description": "Complete 12 workouts within 3 weeks",
+    "goal": "12 workouts in 3 weeks",
+    "goalValue": 12,
+    "startDate": "2024-10-28",
+    "endDate": "2024-11-18",
+    "participants": 35,
+    "progress": 58,
+    "daysLeft": 7,
+    "status": "active",
+    "rewards": {
+      "first": "$100 Gift Card + Penng Gear",
+      "second": "$75 Gift Card",
+      "third": "$50 Gift Card",
+      "finisher": "Workout Warrior Badge"
+    },
+    "leaderboard": [
+      { "employeeId": "emp-001", "rank": 1, "score": 18, "name": "Sarah Johnson", "dept": "Sales", "avatar": "👩" },
+      { "employeeId": "emp-016", "rank": 2, "score": 17, "name": "Ryan Thompson", "dept": "Sales", "avatar": "👨" },
+      { "employeeId": "emp-012", "rank": 3, "score": 16, "name": "Christopher Davis", "dept": "Sales", "avatar": "👨" },
+      { "employeeId": "emp-004", "rank": 4, "score": 15, "name": "David Park", "dept": "Sales", "avatar": "👨" },
+      { "employeeId": "emp-002", "rank": 5, "score": 14, "name": "Marcus Chen", "dept": "Creative", "avatar": "👨" }
+    ],
+    "stats": {
+      "avgWorkouts": 11.8,
+      "goalAchievers": 24,
+      "daysActive": 14,
+      "totalDays": 21
+    }
+  }
+]

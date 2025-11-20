@@ -1,0 +1,41 @@
+{
+  "id": "cape-media-001",
+  "name": "Cape Media",
+  "industry": "Media & Creative",
+  "employeeCount": 50,
+  "location": "Los Angeles, CA",
+  "programStartDate": "2024-08-20",
+  "programCurrentDate": "2024-11-18",
+  "programDurationDays": 90,
+  "departments": [
+    {
+      "id": "sales",
+      "name": "Sales",
+      "employeeCount": 10,
+      "color": "#2735cf"
+    },
+    {
+      "id": "creative",
+      "name": "Creative",
+      "employeeCount": 20,
+      "color": "#10B981"
+    },
+    {
+      "id": "production",
+      "name": "Production",
+      "employeeCount": 15,
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "admin",
+      "name": "Admin",
+      "employeeCount": 5,
+      "color": "#F59E0B"
+    }
+  ],
+  "contact": {
+    "adminName": "Jennifer Mitchell",
+    "adminEmail": "jennifer.mitchell@capemedia.com",
+    "phone": "(310) 555-0142"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "unreadCount": 5,
+  "recentMessages": [
+    {
+      "id": "msg-001",
+      "clientId": "client-001",
+      "clientName": "Emma Thompson",
+      "subject": "Question about workout modification",
+      "preview": "Hi Alex, I've been experiencing some knee pain during lunges...",
+      "timestamp": "2024-11-19T14:30:00Z",
+      "isRead": false,
+      "priority": "normal"
+    },
+    {
+      "id": "msg-002",
+      "clientId": "client-004",
+      "clientName": "James Rodriguez",
+      "subject": "Struggling with meal prep",
+      "preview": "I'm finding it hard to stick to the meal plan during work days...",
+      "timestamp": "2024-11-19T10:15:00Z",
+      "isRead": false,
+      "priority": "normal"
+    },
+    {
+      "id": "msg-003",
+      "clientId": "client-010",
+      "clientName": "Robert Taylor",
+      "subject": "Progress update - feeling great!",
+      "preview": "Just wanted to share that I hit a new PR on my 5k run today!",
+      "timestamp": "2024-11-18T16:45:00Z",
+      "isRead": false,
+      "priority": "low"
+    },
+    {
+      "id": "msg-004",
+      "clientId": "client-005",
+      "clientName": "Lisa Anderson",
+      "subject": "Need to reschedule check-in",
+      "preview": "Sorry for the short notice, but I need to reschedule our call...",
+      "timestamp": "2024-11-18T09:20:00Z",
+      "isRead": false,
+      "priority": "high"
+    },
+    {
+      "id": "msg-005",
+      "clientId": "client-012",
+      "clientName": "Christopher Davis",
+      "subject": "Form check request",
+      "preview": "Could you review my deadlift form? I've attached a video...",
+      "timestamp": "2024-11-17T18:00:00Z",
+      "isRead": false,
+      "priority": "normal"
+    },
+    {
+      "id": "msg-006",
+      "clientId": "client-020",
+      "clientName": "Andrew Hall",
+      "subject": "Thanks for the new program!",
+      "preview": "Really enjoying the new strength routine you created for me...",
+      "timestamp": "2024-11-17T12:30:00Z",
+      "isRead": true,
+      "priority": "low"
+    },
+    {
+      "id": "msg-007",
+      "clientId": "client-008",
+      "clientName": "Thomas Lee",
+      "subject": "Travel next week",
+      "preview": "I'll be traveling for work next week. Any workout suggestions...",
+      "timestamp": "2024-11-16T14:00:00Z",
+      "isRead": true,
+      "priority": "normal"
+    },
+    {
+      "id": "msg-008",
+      "clientId": "client-015",
+      "clientName": "Michelle Garcia",
+      "subject": "Meal plan question",
+      "preview": "Can I substitute the chicken in dinner for tofu?",
+      "timestamp": "2024-11-16T08:45:00Z",
+      "isRead": true,
+      "priority": "normal"
+    },
+    {
+      "id": "msg-009",
+      "clientId": "client-019",
+      "clientName": "Nicole Walker",
+      "subject": "Feeling discouraged",
+      "preview": "I haven't seen much progress lately and I'm feeling a bit down...",
+      "timestamp": "2024-11-15T19:15:00Z",
+      "isRead": true,
+      "priority": "high"
+    },
+    {
+      "id": "msg-010",
+      "clientId": "client-002",
+      "clientName": "Michael Chen",
+      "subject": "Marathon training question",
+      "preview": "Should I increase my long run distance this week or...",
+      "timestamp": "2024-11-15T11:00:00Z",
+      "isRead": true,
+      "priority": "normal"
+    }
+  ],
+  "upcomingCheckIns": [
+    {
+      "id": "checkin-001",
+      "clientId": "client-001",
+      "clientName": "Emma Thompson",
+      "scheduledTime": "2024-11-20T10:00:00Z",
+      "type": "bi-weekly",
+      "notes": "Discuss knee pain and workout modifications"
+    },
+    {
+      "id": "checkin-002",
+      "clientId": "client-006",
+      "clientName": "David Kim",
+      "scheduledTime": "2024-11-20T14:00:00Z",
+      "type": "monthly",
+      "notes": "Progress review and goal setting"
+    },
+    {
+      "id": "checkin-003",
+      "clientId": "client-012",
+      "clientName": "Christopher Davis",
+      "scheduledTime": "2024-11-21T09:00:00Z",
+      "type": "bi-weekly",
+      "notes": "Form review and technique coaching"
+    },
+    {
+      "id": "checkin-004",
+      "clientId": "client-020",
+      "clientName": "Andrew Hall",
+      "scheduledTime": "2024-11-21T16:00:00Z",
+      "type": "weekly",
+      "notes": "Advanced strength programming discussion"
+    },
+    {
+      "id": "checkin-005",
+      "clientId": "client-005",
+      "clientName": "Lisa Anderson",
+      "scheduledTime": "2024-11-22T11:00:00Z",
+      "type": "urgent",
+      "notes": "Re-engagement discussion - inactive client"
+    }
+  ]
+}

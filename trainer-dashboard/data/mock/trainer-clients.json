@@ -1,0 +1,971 @@
+{
+  "trainer": {
+    "id": "trainer-001",
+    "name": "Alex Morgan",
+    "email": "alex.morgan@penng.ai",
+    "totalClients": 30,
+    "activeClients": 28
+  },
+  "clients": [
+    {
+      "id": "client-001",
+      "name": "Emma Thompson",
+      "email": "emma.t@email.com",
+      "phone": "+1-555-0101",
+      "age": 28,
+      "gender": "female",
+      "isActive": true,
+      "joinedDate": "2024-01-15",
+      "lastCheckIn": "2024-11-18",
+      "healthScore": 88,
+      "team": "Team Alpha",
+      "goals": ["Weight Loss", "Muscle Gain"],
+      "metrics": {
+        "currentWeight": 145,
+        "targetWeight": 135,
+        "height": 165,
+        "bmi": 23.2
+      },
+      "compliance": {
+        "workoutCompletion": 92,
+        "mealPlanAdherence": 88,
+        "sleepTracking": 85,
+        "overallScore": 88
+      },
+      "currentStreak": 28,
+      "longestStreak": 45,
+      "assignedPrograms": {
+        "workout": "strength-001",
+        "meal": "meal-001"
+      }
+    },
+    {
+      "id": "client-002",
+      "name": "Michael Chen",
+      "email": "m.chen@email.com",
+      "phone": "+1-555-0102",
+      "age": 35,
+      "gender": "male",
+      "isActive": true,
+      "joinedDate": "2024-02-01",
+      "lastCheckIn": "2024-11-19",
+      "healthScore": 92,
+      "team": "Team Alpha",
+      "goals": ["Endurance", "General Fitness"],
+      "metrics": {
+        "currentWeight": 180,
+        "targetWeight": 175,
+        "height": 178,
+        "bmi": 24.8
+      },
+      "compliance": {
+        "workoutCompletion": 95,
+        "mealPlanAdherence": 90,
+        "sleepTracking": 92,
+        "overallScore": 92
+      },
+      "currentStreak": 42,
+      "longestStreak": 56,
+      "assignedPrograms": {
+        "workout": "cardio-001",
+        "meal": "meal-002"
+      }
+    },
+    {
+      "id": "client-003",
+      "name": "Sarah Williams",
+      "email": "s.williams@email.com",
+      "phone": "+1-555-0103",
+      "age": 42,
+      "gender": "female",
+      "isActive": true,
+      "joinedDate": "2024-01-20",
+      "lastCheckIn": "2024-11-19",
+      "healthScore": 85,
+      "team": "Team Beta",
+      "goals": ["Weight Loss", "Health Maintenance"],
+      "metrics": {
+        "currentWeight": 160,
+        "targetWeight": 145,
+        "height": 162,
+        "bmi": 25.1
+      },
+      "compliance": {
+        "workoutCompletion": 87,
+        "mealPlanAdherence": 92,
+        "sleepTracking": 78,
+        "overallScore": 85
+      },
+      "currentStreak": 21,
+      "longestStreak": 35,
+      "assignedPrograms": {
+        "workout": "hiit-001",
+        "meal": "meal-003"
+      }
+    },
+    {
+      "id": "client-004",
+      "name": "James Rodriguez",
+      "email": "j.rodriguez@email.com",
+      "phone": "+1-555-0104",
+      "age": 29,
+      "gender": "male",
+      "isActive": true,
+      "joinedDate": "2024-03-10",
+      "lastCheckIn": "2024-11-15",
+      "healthScore": 78,
+      "team": "Team Beta",
+      "goals": ["Muscle Gain", "Strength"],
+      "metrics": {
+        "currentWeight": 175,
+        "targetWeight": 185,
+        "height": 183,
+        "bmi": 22.6
+      },
+      "compliance": {
+        "workoutCompletion": 75,
+        "mealPlanAdherence": 68,
+        "sleepTracking": 91,
+        "overallScore": 78
+      },
+      "currentStreak": 8,
+      "longestStreak": 22,
+      "assignedPrograms": {
+        "workout": "strength-002",
+        "meal": "meal-004"
+      }
+    },
+    {
+      "id": "client-005",
+      "name": "Lisa Anderson",
+      "email": "l.anderson@email.com",
+      "phone": "+1-555-0105",
+      "age": 31,
+      "gender": "female",
+      "isActive": false,
+      "joinedDate": "2024-02-15",
+      "lastCheckIn": "2024-10-20",
+      "healthScore": 62,
+      "team": "Team Gamma",
+      "goals": ["Weight Loss"],
+      "metrics": {
+        "currentWeight": 170,
+        "targetWeight": 150,
+        "height": 168,
+        "bmi": 26.8
+      },
+      "compliance": {
+        "workoutCompletion": 45,
+        "mealPlanAdherence": 52,
+        "sleepTracking": 35,
+        "overallScore": 44
+      },
+      "currentStreak": 0,
+      "longestStreak": 12,
+      "assignedPrograms": {
+        "workout": "beginner-001",
+        "meal": "meal-005"
+      }
+    },
+    {
+      "id": "client-006",
+      "name": "David Kim",
+      "email": "d.kim@email.com",
+      "phone": "+1-555-0106",
+      "age": 38,
+      "gender": "male",
+      "isActive": true,
+      "joinedDate": "2024-01-05",
+      "lastCheckIn": "2024-11-19",
+      "healthScore": 90,
+      "team": "Team Alpha",
+      "goals": ["Endurance", "Weight Loss"],
+      "metrics": {
+        "currentWeight": 195,
+        "targetWeight": 180,
+        "height": 175,
+        "bmi": 26.1
+      },
+      "compliance": {
+        "workoutCompletion": 93,
+        "mealPlanAdherence": 88,
+        "sleepTracking": 89,
+        "overallScore": 90
+      },
+      "currentStreak": 35,
+      "longestStreak": 52,
+      "assignedPrograms": {
+        "workout": "cardio-002",
+        "meal": "meal-006"
+      }
+    },
+    {
+      "id": "client-007",
+      "name": "Rachel Green",
+      "email": "r.green@email.com",
+      "phone": "+1-555-0107",
+      "age": 26,
+      "gender": "female",
+      "isActive": true,
+      "joinedDate": "2024-04-01",
+      "lastCheckIn": "2024-11-18",
+      "healthScore": 82,
+      "team": "Team Beta",
+      "goals": ["General Fitness", "Flexibility"],
+      "metrics": {
+        "currentWeight": 125,
+        "targetWeight": 125,
+        "height": 160,
+        "bmi": 21.5
+      },
+      "compliance": {
+        "workoutCompletion": 84,
+        "mealPlanAdherence": 78,
+        "sleepTracking": 85,
+        "overallScore": 82
+      },
+      "currentStreak": 16,
+      "longestStreak": 28,
+      "assignedPrograms": {
+        "workout": "yoga-001",
+        "meal": "meal-007"
+      }
+    },
+    {
+      "id": "client-008",
+      "name": "Thomas Lee",
+      "email": "t.lee@email.com",
+      "phone": "+1-555-0108",
+      "age": 45,
+      "gender": "male",
+      "isActive": true,
+      "joinedDate": "2024-02-20",
+      "lastCheckIn": "2024-11-10",
+      "healthScore": 70,
+      "team": "Team Gamma",
+      "goals": ["Health Maintenance"],
+      "metrics": {
+        "currentWeight": 210,
+        "targetWeight": 190,
+        "height": 180,
+        "bmi": 28.5
+      },
+      "compliance": {
+        "workoutCompletion": 68,
+        "mealPlanAdherence": 72,
+        "sleepTracking": 70,
+        "overallScore": 70
+      },
+      "currentStreak": 5,
+      "longestStreak": 18,
+      "assignedPrograms": {
+        "workout": "moderate-001",
+        "meal": "meal-008"
+      }
+    },
+    {
+      "id": "client-009",
+      "name": "Jennifer Martinez",
+      "email": "j.martinez@email.com",
+      "phone": "+1-555-0109",
+      "age": 33,
+      "gender": "female",
+      "isActive": true,
+      "joinedDate": "2024-03-15",
+      "lastCheckIn": "2024-11-19",
+      "healthScore": 86,
+      "team": "Team Alpha",
+      "goals": ["Muscle Gain", "Strength"],
+      "metrics": {
+        "currentWeight": 140,
+        "targetWeight": 145,
+        "height": 170,
+        "bmi": 22.0
+      },
+      "compliance": {
+        "workoutCompletion": 88,
+        "mealPlanAdherence": 85,
+        "sleepTracking": 85,
+        "overallScore": 86
+      },
+      "currentStreak": 24,
+      "longestStreak": 38,
+      "assignedPrograms": {
+        "workout": "strength-003",
+        "meal": "meal-009"
+      }
+    },
+    {
+      "id": "client-010",
+      "name": "Robert Taylor",
+      "email": "r.taylor@email.com",
+      "phone": "+1-555-0110",
+      "age": 40,
+      "gender": "male",
+      "isActive": true,
+      "joinedDate": "2024-01-25",
+      "lastCheckIn": "2024-11-19",
+      "healthScore": 94,
+      "team": "Team Beta",
+      "goals": ["Endurance", "General Fitness"],
+      "metrics": {
+        "currentWeight": 172,
+        "targetWeight": 170,
+        "height": 176,
+        "bmi": 23.4
+      },
+      "compliance": {
+        "workoutCompletion": 96,
+        "mealPlanAdherence": 93,
+        "sleepTracking": 94,
+        "overallScore": 94
+      },
+      "currentStreak": 48,
+      "longestStreak": 62,
+      "assignedPrograms": {
+        "workout": "cardio-003",
+        "meal": "meal-010"
+      }
+    },
+    {
+      "id": "client-011",
+      "name": "Amanda White",
+      "email": "a.white@email.com",
+      "phone": "+1-555-0111",
+      "age": 27,
+      "gender": "female",
+      "isActive": true,
+      "joinedDate": "2024-05-01",
+      "lastCheckIn": "2024-11-17",
+      "healthScore": 76,
+      "team": "Team Gamma",
+      "goals": ["Weight Loss"],
+      "metrics": {
+        "currentWeight": 155,
+        "targetWeight": 140,
+        "height": 163,
+        "bmi": 24.6
+      },
+      "compliance": {
+        "workoutCompletion": 72,
+        "mealPlanAdherence": 80,
+        "sleepTracking": 76,
+        "overallScore": 76
+      },
+      "currentStreak": 12,
+      "longestStreak": 19,
+      "assignedPrograms": {
+        "workout": "hiit-002",
+        "meal": "meal-011"
+      }
+    },
+    {
+      "id": "client-012",
+      "name": "Christopher Davis",
+      "email": "c.davis@email.com",
+      "phone": "+1-555-0112",
+      "age": 36,
+      "gender": "male",
+      "isActive": true,
+      "joinedDate": "2024-03-05",
+      "lastCheckIn": "2024-11-19",
+      "healthScore": 89,
+      "team": "Team Alpha",
+      "goals": ["Strength", "Muscle Gain"],
+      "metrics": {
+        "currentWeight": 188,
+        "targetWeight": 195,
+        "height": 185,
+        "bmi": 23.8
+      },
+      "compliance": {
+        "workoutCompletion": 91,
+        "mealPlanAdherence": 87,
+        "sleepTracking": 89,
+        "overallScore": 89
+      },
+      "currentStreak": 31,
+      "longestStreak": 44,
+      "assignedPrograms": {
+        "workout": "strength-004",
+        "meal": "meal-012"
+      }
+    },
+    {
+      "id": "client-013",
+      "name": "Jessica Brown",
+      "email": "j.brown@email.com",
+      "phone": "+1-555-0113",
+      "age": 30,
+      "gender": "female",
+      "isActive": false,
+      "joinedDate": "2024-04-10",
+      "lastCheckIn": "2024-09-15",
+      "healthScore": 58,
+      "team": "Team Gamma",
+      "goals": ["General Fitness"],
+      "metrics": {
+        "currentWeight": 148,
+        "targetWeight": 138,
+        "height": 165,
+        "bmi": 23.9
+      },
+      "compliance": {
+        "workoutCompletion": 38,
+        "mealPlanAdherence": 45,
+        "sleepTracking": 50,
+        "overallScore": 44
+      },
+      "currentStreak": 0,
+      "longestStreak": 8,
+      "assignedPrograms": {
+        "workout": "beginner-002",
+        "meal": "meal-013"
+      }
+    },
+    {
+      "id": "client-014",
+      "name": "Daniel Wilson",
+      "email": "d.wilson@email.com",
+      "phone": "+1-555-0114",
+      "age": 44,
+      "gender": "male",
+      "isActive": true,
+      "joinedDate": "2024-02-10",
+      "lastCheckIn": "2024-11-18",
+      "healthScore": 81,
+      "team": "Team Beta",
+      "goals": ["Weight Loss", "Endurance"],
+      "metrics": {
+        "currentWeight": 200,
+        "targetWeight": 185,
+        "height": 178,
+        "bmi": 26.9
+      },
+      "compliance": {
+        "workoutCompletion": 80,
+        "mealPlanAdherence": 83,
+        "sleepTracking": 80,
+        "overallScore": 81
+      },
+      "currentStreak": 19,
+      "longestStreak": 31,
+      "assignedPrograms": {
+        "workout": "cardio-004",
+        "meal": "meal-014"
+      }
+    },
+    {
+      "id": "client-015",
+      "name": "Michelle Garcia",
+      "email": "m.garcia@email.com",
+      "phone": "+1-555-0115",
+      "age": 25,
+      "gender": "female",
+      "isActive": true,
+      "joinedDate": "2024-06-01",
+      "lastCheckIn": "2024-11-19",
+      "healthScore": 87,
+      "team": "Team Alpha",
+      "goals": ["General Fitness", "Flexibility"],
+      "metrics": {
+        "currentWeight": 130,
+        "targetWeight": 128,
+        "height": 164,
+        "bmi": 21.2
+      },
+      "compliance": {
+        "workoutCompletion": 89,
+        "mealPlanAdherence": 86,
+        "sleepTracking": 87,
+        "overallScore": 87
+      },
+      "currentStreak": 26,
+      "longestStreak": 30,
+      "assignedPrograms": {
+        "workout": "yoga-002",
+        "meal": "meal-015"
+      }
+    },
+    {
+      "id": "client-016",
+      "name": "Kevin Moore",
+      "email": "k.moore@email.com",
+      "phone": "+1-555-0116",
+      "age": 39,
+      "gender": "male",
+      "isActive": true,
+      "joinedDate": "2024-01-30",
+      "lastCheckIn": "2024-11-16",
+      "healthScore": 73,
+      "team": "Team Gamma",
+      "goals": ["Health Maintenance"],
+      "metrics": {
+        "currentWeight": 190,
+        "targetWeight": 180,
+        "height": 174,
+        "bmi": 25.8
+      },
+      "compliance": {
+        "workoutCompletion": 70,
+        "mealPlanAdherence": 75,
+        "sleepTracking": 74,
+        "overallScore": 73
+      },
+      "currentStreak": 9,
+      "longestStreak": 21,
+      "assignedPrograms": {
+        "workout": "moderate-002",
+        "meal": "meal-016"
+      }
+    },
+    {
+      "id": "client-017",
+      "name": "Stephanie Clark",
+      "email": "s.clark@email.com",
+      "phone": "+1-555-0117",
+      "age": 32,
+      "gender": "female",
+      "isActive": true,
+      "joinedDate": "2024-03-20",
+      "lastCheckIn": "2024-11-19",
+      "healthScore": 91,
+      "team": "Team Beta",
+      "goals": ["Strength", "General Fitness"],
+      "metrics": {
+        "currentWeight": 138,
+        "targetWeight": 140,
+        "height": 168,
+        "bmi": 21.8
+      },
+      "compliance": {
+        "workoutCompletion": 92,
+        "mealPlanAdherence": 90,
+        "sleepTracking": 91,
+        "overallScore": 91
+      },
+      "currentStreak": 37,
+      "longestStreak": 49,
+      "assignedPrograms": {
+        "workout": "strength-005",
+        "meal": "meal-017"
+      }
+    },
+    {
+      "id": "client-018",
+      "name": "Brian Lewis",
+      "email": "b.lewis@email.com",
+      "phone": "+1-555-0118",
+      "age": 41,
+      "gender": "male",
+      "isActive": true,
+      "joinedDate": "2024-02-25",
+      "lastCheckIn": "2024-11-19",
+      "healthScore": 84,
+      "team": "Team Alpha",
+      "goals": ["Endurance", "Weight Loss"],
+      "metrics": {
+        "currentWeight": 185,
+        "targetWeight": 175,
+        "height": 179,
+        "bmi": 24.7
+      },
+      "compliance": {
+        "workoutCompletion": 85,
+        "mealPlanAdherence": 82,
+        "sleepTracking": 85,
+        "overallScore": 84
+      },
+      "currentStreak": 22,
+      "longestStreak": 36,
+      "assignedPrograms": {
+        "workout": "cardio-005",
+        "meal": "meal-018"
+      }
+    },
+    {
+      "id": "client-019",
+      "name": "Nicole Walker",
+      "email": "n.walker@email.com",
+      "phone": "+1-555-0119",
+      "age": 29,
+      "gender": "female",
+      "isActive": true,
+      "joinedDate": "2024-05-15",
+      "lastCheckIn": "2024-11-14",
+      "healthScore": 68,
+      "team": "Team Gamma",
+      "goals": ["Weight Loss"],
+      "metrics": {
+        "currentWeight": 165,
+        "targetWeight": 150,
+        "height": 166,
+        "bmi": 25.4
+      },
+      "compliance": {
+        "workoutCompletion": 62,
+        "mealPlanAdherence": 70,
+        "sleepTracking": 72,
+        "overallScore": 68
+      },
+      "currentStreak": 6,
+      "longestStreak": 14,
+      "assignedPrograms": {
+        "workout": "hiit-003",
+        "meal": "meal-019"
+      }
+    },
+    {
+      "id": "client-020",
+      "name": "Andrew Hall",
+      "email": "a.hall@email.com",
+      "phone": "+1-555-0120",
+      "age": 37,
+      "gender": "male",
+      "isActive": true,
+      "joinedDate": "2024-01-10",
+      "lastCheckIn": "2024-11-19",
+      "healthScore": 93,
+      "team": "Team Alpha",
+      "goals": ["Muscle Gain", "Strength"],
+      "metrics": {
+        "currentWeight": 182,
+        "targetWeight": 190,
+        "height": 182,
+        "bmi": 23.5
+      },
+      "compliance": {
+        "workoutCompletion": 94,
+        "mealPlanAdherence": 92,
+        "sleepTracking": 93,
+        "overallScore": 93
+      },
+      "currentStreak": 44,
+      "longestStreak": 58,
+      "assignedPrograms": {
+        "workout": "strength-006",
+        "meal": "meal-020"
+      }
+    },
+    {
+      "id": "client-021",
+      "name": "Lauren Allen",
+      "email": "l.allen@email.com",
+      "phone": "+1-555-0121",
+      "age": 34,
+      "gender": "female",
+      "isActive": true,
+      "joinedDate": "2024-04-05",
+      "lastCheckIn": "2024-11-18",
+      "healthScore": 80,
+      "team": "Team Beta",
+      "goals": ["General Fitness"],
+      "metrics": {
+        "currentWeight": 142,
+        "targetWeight": 138,
+        "height": 167,
+        "bmi": 22.3
+      },
+      "compliance": {
+        "workoutCompletion": 78,
+        "mealPlanAdherence": 82,
+        "sleepTracking": 80,
+        "overallScore": 80
+      },
+      "currentStreak": 15,
+      "longestStreak": 27,
+      "assignedPrograms": {
+        "workout": "moderate-003",
+        "meal": "meal-021"
+      }
+    },
+    {
+      "id": "client-022",
+      "name": "Gregory Young",
+      "email": "g.young@email.com",
+      "phone": "+1-555-0122",
+      "age": 43,
+      "gender": "male",
+      "isActive": true,
+      "joinedDate": "2024-02-05",
+      "lastCheckIn": "2024-11-19",
+      "healthScore": 88,
+      "team": "Team Beta",
+      "goals": ["Endurance", "Health Maintenance"],
+      "metrics": {
+        "currentWeight": 178,
+        "targetWeight": 175,
+        "height": 177,
+        "bmi": 24.1
+      },
+      "compliance": {
+        "workoutCompletion": 90,
+        "mealPlanAdherence": 86,
+        "sleepTracking": 88,
+        "overallScore": 88
+      },
+      "currentStreak": 33,
+      "longestStreak": 46,
+      "assignedPrograms": {
+        "workout": "cardio-006",
+        "meal": "meal-022"
+      }
+    },
+    {
+      "id": "client-023",
+      "name": "Kimberly Hernandez",
+      "email": "k.hernandez@email.com",
+      "phone": "+1-555-0123",
+      "age": 28,
+      "gender": "female",
+      "isActive": true,
+      "joinedDate": "2024-05-20",
+      "lastCheckIn": "2024-11-19",
+      "healthScore": 83,
+      "team": "Team Alpha",
+      "goals": ["Weight Loss", "Flexibility"],
+      "metrics": {
+        "currentWeight": 152,
+        "targetWeight": 142,
+        "height": 164,
+        "bmi": 23.8
+      },
+      "compliance": {
+        "workoutCompletion": 82,
+        "mealPlanAdherence": 84,
+        "sleepTracking": 83,
+        "overallScore": 83
+      },
+      "currentStreak": 20,
+      "longestStreak": 26,
+      "assignedPrograms": {
+        "workout": "yoga-003",
+        "meal": "meal-023"
+      }
+    },
+    {
+      "id": "client-024",
+      "name": "Steven King",
+      "email": "s.king@email.com",
+      "phone": "+1-555-0124",
+      "age": 46,
+      "gender": "male",
+      "isActive": true,
+      "joinedDate": "2024-03-01",
+      "lastCheckIn": "2024-11-12",
+      "healthScore": 75,
+      "team": "Team Gamma",
+      "goals": ["Health Maintenance"],
+      "metrics": {
+        "currentWeight": 205,
+        "targetWeight": 195,
+        "height": 181,
+        "bmi": 27.2
+      },
+      "compliance": {
+        "workoutCompletion": 73,
+        "mealPlanAdherence": 77,
+        "sleepTracking": 75,
+        "overallScore": 75
+      },
+      "currentStreak": 11,
+      "longestStreak": 20,
+      "assignedPrograms": {
+        "workout": "moderate-004",
+        "meal": "meal-024"
+      }
+    },
+    {
+      "id": "client-025",
+      "name": "Rebecca Wright",
+      "email": "r.wright@email.com",
+      "phone": "+1-555-0125",
+      "age": 31,
+      "gender": "female",
+      "isActive": true,
+      "joinedDate": "2024-04-15",
+      "lastCheckIn": "2024-11-19",
+      "healthScore": 89,
+      "team": "Team Beta",
+      "goals": ["Strength", "Muscle Gain"],
+      "metrics": {
+        "currentWeight": 135,
+        "targetWeight": 140,
+        "height": 169,
+        "bmi": 21.4
+      },
+      "compliance": {
+        "workoutCompletion": 91,
+        "mealPlanAdherence": 88,
+        "sleepTracking": 89,
+        "overallScore": 89
+      },
+      "currentStreak": 29,
+      "longestStreak": 40,
+      "assignedPrograms": {
+        "workout": "strength-007",
+        "meal": "meal-025"
+      }
+    },
+    {
+      "id": "client-026",
+      "name": "Justin Scott",
+      "email": "j.scott@email.com",
+      "phone": "+1-555-0126",
+      "age": 35,
+      "gender": "male",
+      "isActive": true,
+      "joinedDate": "2024-01-20",
+      "lastCheckIn": "2024-11-19",
+      "healthScore": 86,
+      "team": "Team Alpha",
+      "goals": ["Endurance", "General Fitness"],
+      "metrics": {
+        "currentWeight": 176,
+        "targetWeight": 172,
+        "height": 175,
+        "bmi": 24.3
+      },
+      "compliance": {
+        "workoutCompletion": 87,
+        "mealPlanAdherence": 85,
+        "sleepTracking": 86,
+        "overallScore": 86
+      },
+      "currentStreak": 27,
+      "longestStreak": 41,
+      "assignedPrograms": {
+        "workout": "cardio-007",
+        "meal": "meal-026"
+      }
+    },
+    {
+      "id": "client-027",
+      "name": "Megan Torres",
+      "email": "m.torres@email.com",
+      "phone": "+1-555-0127",
+      "age": 27,
+      "gender": "female",
+      "isActive": true,
+      "joinedDate": "2024-06-10",
+      "lastCheckIn": "2024-11-19",
+      "healthScore": 79,
+      "team": "Team Gamma",
+      "goals": ["Weight Loss"],
+      "metrics": {
+        "currentWeight": 158,
+        "targetWeight": 145,
+        "height": 165,
+        "bmi": 24.5
+      },
+      "compliance": {
+        "workoutCompletion": 76,
+        "mealPlanAdherence": 81,
+        "sleepTracking": 80,
+        "overallScore": 79
+      },
+      "currentStreak": 14,
+      "longestStreak": 22,
+      "assignedPrograms": {
+        "workout": "hiit-004",
+        "meal": "meal-027"
+      }
+    },
+    {
+      "id": "client-028",
+      "name": "Ryan Nguyen",
+      "email": "r.nguyen@email.com",
+      "phone": "+1-555-0128",
+      "age": 33,
+      "gender": "male",
+      "isActive": true,
+      "joinedDate": "2024-02-15",
+      "lastCheckIn": "2024-11-19",
+      "healthScore": 90,
+      "team": "Team Alpha",
+      "goals": ["Muscle Gain", "Strength"],
+      "metrics": {
+        "currentWeight": 168,
+        "targetWeight": 178,
+        "height": 180,
+        "bmi": 22.0
+      },
+      "compliance": {
+        "workoutCompletion": 92,
+        "mealPlanAdherence": 89,
+        "sleepTracking": 90,
+        "overallScore": 90
+      },
+      "currentStreak": 36,
+      "longestStreak": 50,
+      "assignedPrograms": {
+        "workout": "strength-008",
+        "meal": "meal-028"
+      }
+    },
+    {
+      "id": "client-029",
+      "name": "Heather Phillips",
+      "email": "h.phillips@email.com",
+      "phone": "+1-555-0129",
+      "age": 39,
+      "gender": "female",
+      "isActive": true,
+      "joinedDate": "2024-03-25",
+      "lastCheckIn": "2024-11-18",
+      "healthScore": 77,
+      "team": "Team Beta",
+      "goals": ["General Fitness", "Flexibility"],
+      "metrics": {
+        "currentWeight": 147,
+        "targetWeight": 143,
+        "height": 166,
+        "bmi": 22.9
+      },
+      "compliance": {
+        "workoutCompletion": 74,
+        "mealPlanAdherence": 79,
+        "sleepTracking": 78,
+        "overallScore": 77
+      },
+      "currentStreak": 13,
+      "longestStreak": 24,
+      "assignedPrograms": {
+        "workout": "yoga-004",
+        "meal": "meal-029"
+      }
+    },
+    {
+      "id": "client-030",
+      "name": "Brandon Campbell",
+      "email": "b.campbell@email.com",
+      "phone": "+1-555-0130",
+      "age": 42,
+      "gender": "male",
+      "isActive": true,
+      "joinedDate": "2024-01-08",
+      "lastCheckIn": "2024-11-19",
+      "healthScore": 95,
+      "team": "Team Alpha",
+      "goals": ["Endurance", "Health Maintenance"],
+      "metrics": {
+        "currentWeight": 174,
+        "targetWeight": 172,
+        "height": 177,
+        "bmi": 23.6
+      },
+      "compliance": {
+        "workoutCompletion": 97,
+        "mealPlanAdherence": 94,
+        "sleepTracking": 95,
+        "overallScore": 95
+      },
+      "currentStreak": 52,
+      "longestStreak": 68,
+      "assignedPrograms": {
+        "workout": "cardio-008",
+        "meal": "meal-030"
+      }
+    }
+  ]
+}
