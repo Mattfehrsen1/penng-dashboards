@@ -71,6 +71,7 @@ export default function DashboardPage() {
           icon={Users}
           accentColor="cobalt"
           description={`${participationRate}% participation rate`}
+          index={0}
         />
         <MetricCard
           title="Avg Daily Steps"
@@ -79,6 +80,7 @@ export default function DashboardPage() {
           icon={Activity}
           accentColor="orange"
           description="Target: 8,000 steps"
+          index={1}
         />
         <MetricCard
           title="Engagement Rate"
@@ -88,6 +90,7 @@ export default function DashboardPage() {
           icon={TrendingUp}
           accentColor="green"
           description="Highly engaged workforce"
+          index={2}
         />
         <MetricCard
           title="Health Score"
@@ -97,6 +100,7 @@ export default function DashboardPage() {
           icon={Heart}
           accentColor="purple"
           description="Company-wide average"
+          index={3}
         />
       </div>
 

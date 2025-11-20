@@ -18,14 +18,27 @@ interface MetricCardProps {
   accentColor?: 'cobalt' | 'orange' | 'purple' | 'green' | 'amber';
   description?: string;
   className?: string;
+  index?: number; // For progressive color lightening
 }
 
+// Progressive blue shades - getting lighter from left to right
+const getProgressiveBlue = (index: number = 0) => {
+  const blues = [
+    '#2735cf', // Original darkest blue
+    '#3545d9', // Slightly lighter
+    '#4355e3', // Medium light
+    '#5165ed', // Lighter
+    '#5f75f7', // Lightest
+  ];
+  return blues[Math.min(index, blues.length - 1)];
+};
+
 const accentColors = {
-  cobalt: 'border-[#5B7BB4] bg-[#5B7BB4] text-[#5B7BB4]',
-  orange: 'border-[#D4915D] bg-[#D4915D] text-[#D4915D]',
-  purple: 'border-[#9B7BA5] bg-[#9B7BA5] text-[#9B7BA5]',
-  green: 'border-[#7B9B7A] bg-[#7B9B7A] text-[#7B9B7A]',
-  amber: 'border-[#C9A66B] bg-[#C9A66B] text-[#C9A66B]',
+  cobalt: 'border-current',
+  orange: 'border-current',
+  purple: 'border-current',
+  green: 'border-current',
+  amber: 'border-current',
 };
 
 export function MetricCard({
@@ -37,54 +50,86 @@ export function MetricCard({
   accentColor = 'cobalt',
   description,
   className,
+  index = 0,
 }: MetricCardProps) {
+  const blueColor = getProgressiveBlue(index);
+
   return (
     <div className={cn('flex flex-col gap-1', className)}>
       {/* Top Container - Title */}
       <div
         className={cn(
-          'p-6 border-2 bg-black',
-          accentColors[accentColor].split(' ')[0]
+          'p-6 border-2 rounded-2xl relative overflow-hidden',
+          accentColors[accentColor]
         )}
+        style={{
+          backgroundColor: blueColor,
+          borderColor: blueColor,
+          color: blueColor
+        }}
       >
-        <div className="flex items-center gap-3">
-          {Icon && <Icon className="w-8 h-8 text-white" strokeWidth={2.5} />}
-          <p className="text-3xl text-white font-semibold tracking-tight whitespace-nowrap">{title}</p>
+        {/* Grain texture overlay */}
+        <div
+          className="absolute inset-0 opacity-[0.15] pointer-events-none mix-blend-overlay"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")`,
+          }}
+        />
+
+        {/* Subtle gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-black/10 pointer-events-none" />
+
+        <div className="relative">
+          <p className="text-3xl text-white font-semibold tracking-tighter text-left">{title}</p>
         </div>
       </div>
 
       {/* Bottom Container - Value */}
       <div
         className={cn(
-          'p-8 border-2 flex-1',
-          accentColors[accentColor].split(' ')[0],
-          accentColors[accentColor].split(' ')[1]
+          'pt-4 pl-4 pr-8 pb-8 border-2 flex-1 rounded-2xl relative overflow-hidden',
+          accentColors[accentColor]
         )}
+        style={{
+          backgroundColor: blueColor,
+          borderColor: blueColor,
+        }}
       >
-        <div className="flex flex-col h-full justify-between">
+        {/* Grain texture overlay */}
+        <div
+          className="absolute inset-0 opacity-[0.15] pointer-events-none mix-blend-overlay"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")`,
+          }}
+        />
+
+        {/* Subtle gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-black/10 pointer-events-none" />
+
+        <div className="flex flex-col h-full justify-between relative">
           <div className="flex items-baseline gap-2 mb-4">
-            <span className="text-9xl font-semibold text-black tracking-tighter leading-none">
+            <span className="text-9xl font-normal text-white/90 tracking-tighter leading-none mix-blend-soft-light">
               {typeof value === 'number' ? value.toLocaleString() : value}
             </span>
-            {unit && <span className="text-4xl text-black font-semibold tracking-tighter">{unit}</span>}
+            {unit && <span className="text-5xl text-white/90 font-normal tracking-tighter mix-blend-soft-light">{unit}</span>}
           </div>
 
           {trend && (
-            <div className="flex items-center gap-1 text-xl">
+            <div className="flex items-center gap-1 text-2xl">
               <span
                 className={cn(
-                  'font-semibold',
-                  trend.isPositive ? 'text-black' : 'text-black'
+                  'font-semibold tracking-tight',
+                  trend.isPositive ? 'text-green-400' : 'text-red-400'
                 )}
               >
                 {trend.isPositive ? '↑' : '↓'} {Math.abs(trend.value)}%
               </span>
-              <span className="text-black/70 font-semibold">{trend.label}</span>
+              <span className="text-white/70 font-semibold tracking-tight">{trend.label}</span>
             </div>
           )}
 
           {description && (
-            <p className="text-2xl text-black/70 mt-2 font-semibold tracking-tight">{description}</p>
+            <p className="text-2xl text-white/70 mt-2 font-semibold tracking-tight">{description}</p>
           )}
         </div>
       </div>

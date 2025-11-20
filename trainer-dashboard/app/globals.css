@@ -71,7 +71,7 @@
 /* Penng Liquid Glass Utilities */
 @layer components {
   .glass-card {
-    @apply relative rounded-xl transition-all duration-300;
+    @apply relative rounded-2xl transition-all duration-300;
     background: rgba(39, 53, 207, 0.03);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -84,7 +84,7 @@
   }
 
   .glass-card-light {
-    @apply relative rounded-xl transition-all duration-300;
+    @apply relative rounded-2xl transition-all duration-300;
     background: rgba(39, 53, 207, 0.02);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
